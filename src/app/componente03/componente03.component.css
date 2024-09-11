@@ -1,0 +1,14 @@
+/* Estilos para a imagem */
+img {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #000; /* Borda preta ao redor da imagem */
+    border-radius: 10px; /* Arredondar as bordas */
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.5); /* Sombra para dar profundidade */
+    transition: transform 0.3s ease; /* Transição suave ao alterar imagem */
+  }
+  
+  img:hover {
+    transform: scale(1.05); /* Aumenta levemente o tamanho ao passar o mouse */
+  }
+  

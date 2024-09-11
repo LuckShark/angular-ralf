@@ -9,4 +9,8 @@ import { Component } from '@angular/core';
 })
 export class Componente01Component {
 
+  //Variáveis (sempre tipando)
+  nome:string = 'Ralf';
+  idade:number = 34;
+
 }
