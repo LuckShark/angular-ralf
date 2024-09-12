@@ -7,3 +7,18 @@
 button{
     position:absolute;
 }
+
+button{
+    border-radius: 5rem;
+    text-decoration: none;
+    border: none;
+    padding: .5rem;
+    color: rgb(38, 139, 139);
+
+    &:hover{
+        background-color: blueviolet;
+        cursor: pointer;
+        color: aqua;
+        font-weight: bold;
+    }
+}

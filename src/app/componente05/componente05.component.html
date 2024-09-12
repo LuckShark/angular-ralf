@@ -1,0 +1,9 @@
+<p>Sem índice</p>
+<ul>
+    <li *ngFor="let n of nomes">{{n}}</li>
+</ul>
+<br>
+<p>Com índice</p>
+<ul>
+    <li *ngFor="let n of nomes; index as indice">{{n}}-{{indice}}</li>
+</ul>

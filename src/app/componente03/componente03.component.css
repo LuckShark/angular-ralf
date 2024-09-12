@@ -12,3 +12,17 @@ img {
     transform: scale(1.05); /* Aumenta levemente o tamanho ao passar o mouse */
   }
   
+  button{
+    border-radius: 5rem;
+    text-decoration: none;
+    border: none;
+    padding: .5rem;
+    color: rgb(38, 139, 139);
+
+    &:hover{
+        background-color: blueviolet;
+        cursor: pointer;
+        color: aqua;
+        font-weight: bold;
+    }
+}
