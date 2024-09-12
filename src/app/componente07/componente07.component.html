@@ -1,0 +1,13 @@
+<p [ngStyle]="{'color':condicao ? 'green' : 'red'}">Green=TRUE / Red = FALSE</p>
+
+<br>
+
+<button (click)="alteraBoolean()">Alterar true / false</button>
+
+<br>
+
+<ul>
+    <li *ngFor="let l of lista" [ngStyle]="{'color': l=='Aprovado' ? 'green' : 'red'}">{{l}}</li>
+</ul>
+
+<button (click)="alteraString()"> Altera aprovações </button>

@@ -4,3 +4,12 @@
     <p *ngSwitchCase="'JS'">Linguagem de programação</p>
     <p *ngSwitchDefault>Linguagem de não encontrada</p>
 </div>
+
+<button (click)="alteraLinguagem()">Altera a linguagem</button>
+
+<div [ngSwitch]="linguagem2">
+    <p *ngSwitchCase="'HTML'">HTML</p>
+    <p *ngSwitchCase="'CSS'">CSS</p>
+    <p *ngSwitchCase="'JS'">JS</p>
+    <p *ngSwitchDefault>Linguagem de não encontrada</p>
+</div>
