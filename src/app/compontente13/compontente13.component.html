@@ -1,0 +1,10 @@
+<h1>{{nome}}</h1>
+<h2>{{cidade}}</h2>
+
+<form>
+    <!--Usando o 2wayBinding: o TS se comunica com o HTML e vice versa -->
+    <input placeholder="Digite nome" type="text" name="nome" [(ngModel)]="nome">
+    <input placeholder="Digite cidade" type="text" name="cidade" [(ngModel)]="cidade">
+</form>
+
+<!--Não esquecer a propriedade name! -->
