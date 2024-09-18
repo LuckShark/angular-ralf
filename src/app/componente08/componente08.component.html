@@ -1,0 +1,9 @@
+
+<button (click)="alteraString()"> Altera string </button>
+<p>O botão troca apenas a string, a cor é alterada no ngClass</p>
+
+<ul>
+    <li *ngFor="let l of lista" [ngClass]="l == 'Aprovado' ? 'fonteVerde' : 'fonteVermelha'">{{ l }}</li>
+</ul>
+
+<!-- o L é apenas um objeto contendo Aprovado / Reprovado-->
