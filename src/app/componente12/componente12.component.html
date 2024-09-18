@@ -1,0 +1,8 @@
+@switch (linguagem) {
+    @case ('HTML') { <p>Linguagem de marcação</p> }
+    @case ('CSS') { <p>Linguagem de estilo</p> }
+    @case ('JS') { <p>Linguagem de Programação</p> }
+    @default { <p>Nenhuma opção disponível</p> }
+}
+
+<button (click)="trocaLinguagem()">Troque aqui</button>
