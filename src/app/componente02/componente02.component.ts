@@ -12,8 +12,10 @@ export class Componente02Component {
   //Função para exibir uma mensagem
   //Aqui se usa direto o nome, não precisa do 'function' antes
   mensagem(){
-    alert('Hello World!')
+    'Botão funcionando'
   }
+
+  textim:string = 'Botão OK meus amigos'
 
 
 }
