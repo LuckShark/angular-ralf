@@ -1,0 +1,13 @@
+<!--
+No FormsModule a gente usa variáveis
+No ReactForms, a gente trabalha com objetos
+-->
+
+<p>{{formulario.value.nome}}</p>
+<p>{{formulario.value.cidade}}</p>
+
+<form [formGroup]="formulario">
+    <input placeholder="digite nome" type="text" formControlName="nome">
+    <input placeholder="digite cidade" type="text" formControlName="cidade">
+</form>
+
