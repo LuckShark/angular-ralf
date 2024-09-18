@@ -1,0 +1,8 @@
+<!--Toda vez que for usar um control flow, use o @-->
+@if (media >= 7) {
+    <p>Média: {{media}} é maior que 7, aprovado</p>
+}@else if (media >=5) {
+    <p>Média: {{media}}, fica de recuperação</p>
+}@else {
+    <p>Média: {{media}}, reprovado, se fudeu</p>
+}
